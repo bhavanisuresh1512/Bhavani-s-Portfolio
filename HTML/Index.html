@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhavani's TechDiary</title>
+  <meta name="description" content="Portfolio of Bhavani S, B.Tech AIDS student skilled in Java, Python, UI/UX and web development.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/Index.css">
+  <link rel="icon" href="IMAGES/icon.svg" type="image/svg">
+</head>
+<body>
+
+  <div id="welcome-screen">
+    <h1 id="greeting"></h1>
+  </div>
+
+  <div id="main-content">
+
+  <header>
+    <nav class="site-nav">
+      <div class="nav-inner">
+        <a href="index.html" class="brand">Bhavani<span class="dot">Suresh</span></a>
+        <ul class="nav-links">
+          <li><a href="index.html#home" data-page="index.html" class="active">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#skills">Skills</a></li>
+          <li><a href="Project.html" data-page="Project.html">Projects</a></li>
+          <li><a href="Certificate.html" data-page="Certificate.html">Certificates</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+          <button class="theme-toggle" aria-label="Toggle dark mode">☾</button>
+          <button class="nav-burger" aria-label="Toggle menu">☰</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HOME / HERO -->
+    <section id="home" class="hero">
+      <div class="grid-backdrop"></div>
+      <div class="wrap hero-inner">
+        <div>
+          <p class="eyebrow">B.Tech · AI &amp; Ds</p>
+          <h1>Hi, I'm Bhavani S</h1>
+          <p class="tagline">Aspiring AI &amp; Data Science engineer building with Java, Python, and web technologies, with a growing eye for thoughtful UI/UX.</p>
+          <div class="hero-ctas">
+            <a href="#projects-preview" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+          </div>
+        </div>
+        <div class="avatar-wrap">
+          <div class="avatar-ring"></div>
+          <div class="avatar">
+            <img src="IMAGES/Bhavani Suresh.jpeg" alt="error" type="image/jpeg">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">About</p>
+          <h2>A little about me</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-bio reveal">
+            <p>I'm Bhavani S, a B.Tech student specializing in Artificial Intelligence &amp; Data Science (AIDS). I enjoy building practical, logic-driven programs — from console-based simulations to small interactive games — and I'm steadily expanding into front-end web development and UI/UX design.</p>
+            <p>My foundation in object-oriented programming with Java, combined with hands-on Python projects, gives me a solid base for problem-solving. I'm currently focused on sharpening how I design interfaces — not just how systems work, but how people experience them.</p>
+          </div>
+          <div class="about-side reveal">
+            <h3>Education &amp; Details</h3>
+            <ul class="info-list">
+              <li><span>Degree</span><span>B.Tech, AI &amp; Data Science</span></li>
+              <li><span>Focus</span><span>Java · Python · Web Dev</span></li>
+              <li><span>Interest</span><span>UI/UX Design</span></li>
+              <li><span>Status</span><span>Open to opportunities</span></li>
+            </ul>
+            <h3 style="margin-top: 28px;">Interests</h3>
+            <div class="hobby-tags">
+              <span>Problem Solving</span>
+              <span>UI Design</span>
+              <span>Open Source</span>
+              <span>Coding Games</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Skills</p>
+          <h2>What I work with</h2>
+          <p>A blend of programming fundamentals and an emerging focus on interface design.</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-row reveal">
+            <div class="skill-label"><span>Java &amp; OOP</span><span class="skill-pct">85%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-target="85"></div></div>
+          </div>
+          <div class="skill-row reveal">
+            <div class="skill-label"><span>Python</span><span class="skill-pct">88%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-target="88"></div></div>
+          </div>
+          <div class="skill-row reveal">
+            <div class="skill-label"><span>UI/UX Design</span><span class="skill-pct">70%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-target="70"></div></div>
+          </div>
+          <div class="skill-row reveal">
+            <div class="skill-label"><span>Web Technology (HTML/CSS/JS)</span><span class="skill-pct">75%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-target="75"></div></div>
+          </div>
+          <div class="skill-row reveal">
+            <div class="skill-label"><span>Object-Oriented Programming</span><span class="skill-pct">82%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-target="82"></div></div>
+          </div>
+        </div>
+        <p class="skill-note reveal" style="margin-top: 20px;">Percentages are self-assessed proficiency levels — feel free to adjust them to reflect where you really are.</p>
+      </div>
+    </section>
+
+    <!-- PROJECTS PREVIEW -->
+    <section id="projects-preview" class="section">
+      <div class="wrap">
+        <div class="section-head reveal" style="display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:16px;">
+          <div>
+            <p class="eyebrow">Projects</p>
+            <h2>Selected work</h2>
+            <p>A few projects from my GitHub. New ones show up here automatically.</p>
+          </div>
+          <a href="Project.html" class="btn btn-ghost">See all projects</a>
+        </div>
+        <div class="card-grid" id="homeProjectGrid"></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Let's work together</h2>
+          <p>Have an opportunity or just want to say hi? Reach out below.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <h3>Find me here</h3>
+            <div class="contact-channel">
+              <div class="ch-icon">
+                <img src="IMAGES/Github.svg" type="image/svg">
+              </div>
+              <div>
+                <a href="https://github.com/bhavanisuresh1512" target="_blank" rel="noopener">Bhavani Suresh</a>
+                <small>GitHub</small>
+              </div>
+            </div>
+            <div class="contact-channel">
+              <div class="ch-icon">
+                <img src="IMAGES/Linkedin.svg" type="image/svg" width="20">
+              </div>
+              <div>
+                <a href="https://www.linkedin.com/in/bhavani-suresh-9643ab386" target="_blank" rel="noopener">Bhavani Suresh</a>
+                <small>LinkedIn</small>
+              </div>
+            </div>
+            <div class="contact-channel">
+              <div class="ch-icon">
+                <img src="IMAGES/Email.svg" type="image/svg" width="25">
+              </div>
+              <div>
+                <a href="mailto:bhavanisuresh1512@gmail.com" target="_blank" rel="noopener">Bhavani Suresh</a>
+                <small>Email</small>
+              </div>
+            </div>
+          </div>
+
+          <form id="contactForm" class="reveal" novalidate>
+            <div class="form-group" id="name-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Ex : Bhavani Suresh">
+              <span class="error-msg"></span>
+            </div>
+            <div class="form-group" id="email-group">
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Ex : bhavani@gmail.com">
+              <span class="error-msg"></span>
+            </div>
+            <div class="form-group" id="message-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Type your message"></textarea>
+              <span class="error-msg"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <div class="form-success" id="formSuccess">Thanks for reaching out! Your message looks good — I'll get back to you soon.</div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© 2026 BHAVANI S - ALL RIGHTS RESERVED !</p>
+      <div class="social-row">
+        <a href="https://github.com/bhavanisuresh1512" target="_blank" rel="noopener">GitHub ↗</a>
+        <a href="https://www.linkedin.com/in/bhavani-suresh-9643ab386" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+    </div>
+  </footer>
+
+  </div>
+  <script src="SCRIPT/Index.js"></script>
+  <script>
+    renderProjectPreview("homeProjectGrid", 3);
+  </script>
+</body>
+</html>
